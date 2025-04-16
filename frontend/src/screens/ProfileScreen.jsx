@@ -47,9 +47,6 @@ const ProfileScreen = () => {
         dispatch(setCredentials({ ...res }));
         toast.success('Profile updated successfully');
       } catch (err) {
-        if(err) {
-          console.log(err.data.message);
-        }
         toast.error(err?.data?.message || err.error);
       }
     }
@@ -59,6 +56,7 @@ const ProfileScreen = () => {
     <Row>
       <Col md={3}>
         <h2>User Profile</h2>
+        <h3>admin</h3>
 
         <Form onSubmit={submitHandler}>
           <Form.Group className='my-2' controlId='name'>
