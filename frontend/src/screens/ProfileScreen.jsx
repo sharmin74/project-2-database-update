@@ -27,7 +27,7 @@ const ProfileScreen = () => {
   useEffect(() => {
     setName(userInfo.name);
     setEmail(userInfo.email);
-  }, [userInfo.email, userInfo.name]);
+  }, []);
 
   const dispatch = useDispatch();
   const submitHandler = async (e) => {
@@ -56,7 +56,6 @@ const ProfileScreen = () => {
     <Row>
       <Col md={3}>
         <h2>User Profile</h2>
-        <h3>admin</h3>
 
         <Form onSubmit={submitHandler}>
           <Form.Group className='my-2' controlId='name'>
