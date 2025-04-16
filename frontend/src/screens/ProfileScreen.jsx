@@ -45,7 +45,11 @@ const ProfileScreen = () => {
           password,
         }).unwrap();
         dispatch(setCredentials({ ...res }));
-        window.confirm('do you wnat really update?');
+        if (window.confirm('Do you really want to update?')) {
+          //update
+        } else {
+          //return
+        }
         toast.success('Profile updated successfully');
       } catch (err) {
         toast.error(err?.data?.message || err.error);
