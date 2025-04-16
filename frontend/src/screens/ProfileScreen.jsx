@@ -27,7 +27,7 @@ const ProfileScreen = () => {
   useEffect(() => {
     setName(userInfo.name);
     setEmail(userInfo.email);
-  }, []);
+  }, [userInfo.email, userInfo.name]);
 
   const dispatch = useDispatch();
   const submitHandler = async (e) => {
