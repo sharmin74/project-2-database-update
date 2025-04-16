@@ -52,7 +52,7 @@ const ProfileScreen = () => {
           //return
           return;
         }
-        toast.success('Profile updated successfully');
+        // toast.success('Profile updated successfully');
       } catch (err) {
         toast.error(err?.data?.message || err.error);
       }
