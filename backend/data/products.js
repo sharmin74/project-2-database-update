@@ -107,6 +107,19 @@ const products = [
   rating: 4.3,
   numReviews: 6,
 },
+{
+  name: 'Wireless Noise Cancelling Headphones',
+  image: '/images/headphones-01.jpg',
+  description:
+    'Premium over-ear headphones with active noise cancellation and up to 30 hours of battery life. Ideal for immersive listening experiences.',
+  brand: 'Bose',
+  category: 'Electronics',
+  price: 199.99,
+  countInStock: 8,
+  rating: 4.7,
+  numReviews: 18,
+}
+
   
 ];
 
