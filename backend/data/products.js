@@ -83,6 +83,19 @@ const products = [
     rating: 4.4,
     numReviews: 5,
   },
+  {
+    name: 'Smart Fitness Tracker',
+    image: '/images/fitnesstracker-01.jpg',
+    description:
+      'Track your heart rate, sleep, and steps with this lightweight fitness tracker. Water-resistant and compatible with iOS & Android.',
+    brand: 'FitPro',
+    category: 'Electronics',
+    price: 39.99,
+    countInStock: 15,
+    rating: 4.2,
+    numReviews: 9,
+  }
+  
 ];
 
 export default products;
