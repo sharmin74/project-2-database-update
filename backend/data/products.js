@@ -130,7 +130,20 @@ const products = [
   countInStock: 15,
   rating: 4.7,
   numReviews: 6,
+},
+{
+  name: 'Smart Home Security Camera',
+  image: '/images/securitycam-01.jpg',
+  description:
+    '1080p HD indoor camera with motion detection, night vision, and mobile app notifications. Compatible with Alexa and Google Home.',
+  brand: 'TP-Link',
+  category: 'Electronics',
+  price: 74.99,
+  countInStock: 12,
+  rating: 4.5,
+  numReviews: 11,
 }
+
 
 
   
