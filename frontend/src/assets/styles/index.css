@@ -76,3 +76,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.product-title {
+  height: 2.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+}
