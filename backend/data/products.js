@@ -118,7 +118,20 @@ const products = [
   countInStock: 8,
   rating: 4.7,
   numReviews: 18,
+},
+{
+  name: 'Wireless Mechanical Keyboard',
+  image: '/images/keyboard-01.jpg',
+  description:
+    'Ergonomic wireless mechanical keyboard with RGB backlighting and blue switches for tactile feedback.',
+  brand: 'Keychron',
+  category: 'Electronics',
+  price: 119.99,
+  countInStock: 15,
+  rating: 4.7,
+  numReviews: 6,
 }
+
 
   
 ];
