@@ -62,3 +62,12 @@ body {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f8f9fa;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #333;
+}
