@@ -94,7 +94,19 @@ const products = [
     countInStock: 15,
     rating: 4.2,
     numReviews: 9,
-  }
+  },
+  {
+  name: 'Wireless Charging Pad',
+  image: '/images/chargingpad-01.jpg',
+  description:
+    'Slim and fast-charging pad compatible with iPhone, Android, and wireless earbuds. Includes LED charging indicator.',
+  brand: 'Anker',
+  category: 'Electronics',
+  price: 24.99,
+  countInStock: 18,
+  rating: 4.3,
+  numReviews: 6,
+},
   
 ];
 
