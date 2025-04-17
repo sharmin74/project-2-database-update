@@ -51,3 +51,69 @@ table th {
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+
+body {
+  background: linear-gradient(to bottom, #f9f9f9, #f1f1f1);
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f8f9fa;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.product-title {
+  height: 2.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Future-ready style for out-of-stock products */
+.out-of-stock {
+  opacity: 0.6;
+  filter: grayscale(60%);
+  position: relative;
+}
+
+.out-of-stock::after {
+  content: "Out of Stock";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: crimson;
+  color: white;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+  border-radius: 4px;
+}
+

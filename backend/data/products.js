@@ -71,6 +71,82 @@ const products = [
     rating: 4,
     numReviews: 12,
   },
+  {
+    name: 'Portable Bluetooth Speaker',
+    image: '/images/jblspeaker-01.jpg',
+    description:
+      'Compact speaker with powerful bass and wireless connectivity. Perfect for on-the-go music lovers.',
+    brand: 'JBL',
+    category: 'Electronics',
+    price: 59.99,
+    countInStock: 20,
+    rating: 4.4,
+    numReviews: 5,
+  },
+  {
+    name: 'Smart Fitness Tracker',
+    image: '/images/fitnesstracker-01.jpg',
+    description:
+      'Track your heart rate, sleep, and steps with this lightweight fitness tracker. Water-resistant and compatible with iOS & Android.',
+    brand: 'FitPro',
+    category: 'Electronics',
+    price: 39.99,
+    countInStock: 15,
+    rating: 4.2,
+    numReviews: 9,
+  },
+  {
+  name: 'Wireless Charging Pad',
+  image: '/images/chargingpad-01.jpg',
+  description:
+    'Slim and fast-charging pad compatible with iPhone, Android, and wireless earbuds. Includes LED charging indicator.',
+  brand: 'Anker',
+  category: 'Electronics',
+  price: 24.99,
+  countInStock: 18,
+  rating: 4.3,
+  numReviews: 6,
+},
+{
+  name: 'Wireless Noise Cancelling Headphones',
+  image: '/images/headphones-01.jpg',
+  description:
+    'Premium over-ear headphones with active noise cancellation and up to 30 hours of battery life. Ideal for immersive listening experiences.',
+  brand: 'Bose',
+  category: 'Electronics',
+  price: 199.99,
+  countInStock: 8,
+  rating: 4.7,
+  numReviews: 18,
+},
+{
+  name: 'Wireless Mechanical Keyboard',
+  image: '/images/keyboard-01.jpg',
+  description:
+    'Ergonomic wireless mechanical keyboard with RGB backlighting and blue switches for tactile feedback.',
+  brand: 'Keychron',
+  category: 'Electronics',
+  price: 119.99,
+  countInStock: 15,
+  rating: 4.7,
+  numReviews: 6,
+},
+{
+  name: 'Smart Home Security Camera',
+  image: '/images/securitycam-01.jpg',
+  description:
+    '1080p HD indoor camera with motion detection, night vision, and mobile app notifications. Compatible with Alexa and Google Home.',
+  brand: 'TP-Link',
+  category: 'Electronics',
+  price: 74.99,
+  countInStock: 12,
+  rating: 4.5,
+  numReviews: 11,
+}
+
+
+
+  
 ];
 
 export default products;

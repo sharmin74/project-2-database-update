@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Col className='text-center py-3'>
-            <p>ProShop &copy; {currentYear}</p>
+          <p>&copy; {currentYear} STOX. All rights reserved.</p>
           </Col>
         </Row>
       </Container>
@@ -16,3 +16,4 @@ const Footer = () => {
   );
 };
 export default Footer;
+
