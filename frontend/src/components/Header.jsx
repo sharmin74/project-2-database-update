@@ -5,7 +5,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { useLogoutMutation } from '../slices/usersApiSlice';
 import { logout } from '../slices/authSlice';
 import SearchBox from './SearchBox';
-import logo from '../assets/logo.png';
+import logo from '../assets/stoxlogo-01.png';
 import { resetCart } from '../slices/cartSlice';
 
 const Header = () => {
@@ -32,12 +32,30 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar bg='primary' variant='dark' expand='lg' collapseOnSelect>
+<Navbar
+  bg='primary'
+  variant='dark'
+  expand='lg'
+  collapseOnSelect
+  style={{ height: '70px', paddingTop: 0, paddingBottom: 0 }}
+>
+
         <Container>
-          <Navbar.Brand as={Link} to='/'>
-            <img src={logo} alt='ProShop' />
-            ProShop
-          </Navbar.Brand>
+        <Navbar.Brand as={Link} to='/'>
+        <img
+  src={logo}
+  alt='STOX'
+  style={{
+    height: '48px',
+    objectFit: 'contain',
+    display: 'block',
+    padding: '4px 0',
+  }}
+/>
+
+</Navbar.Brand>
+
+
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
