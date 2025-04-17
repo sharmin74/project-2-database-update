@@ -71,6 +71,18 @@ const products = [
     rating: 4,
     numReviews: 12,
   },
+  {
+    name: 'Portable Bluetooth Speaker',
+    image: '/images/jblspeaker-01.jpg',
+    description:
+      'Compact speaker with powerful bass and wireless connectivity. Perfect for on-the-go music lovers.',
+    brand: 'JBL',
+    category: 'Electronics',
+    price: 59.99,
+    countInStock: 20,
+    rating: 4.4,
+    numReviews: 5,
+  },
 ];
 
 export default products;
