@@ -71,3 +71,8 @@ footer {
   text-align: center;
   color: #333;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
